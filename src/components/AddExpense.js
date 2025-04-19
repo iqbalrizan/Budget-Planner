@@ -41,7 +41,7 @@ const AddExpense = () => {
 
     <Form.Group className="mb-3" controlId="formBasicPassword">
       <Form.Label>Cost</Form.Label>
-      <Form.Control type="number" placeholder="Password" value={cost} onChange= {(event) => setCost(event.target.value)} />
+      <Form.Control type="number" placeholder="Enter cost" value={cost} onChange= {(event) => setCost(event.target.value)} />
     </Form.Group>
    
     <Button variant="primary" type="submit">
